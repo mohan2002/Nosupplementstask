@@ -1,0 +1,99 @@
+.maincomp{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+}
+.card-inner{
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    margin-bottom: 16px;
+}
+
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 0.8rem;
+    margin-top: -6px;
+    color: rgba(0,0,0,.65);
+}
+
+i{
+    margin-top: 2px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.heart{
+    font-size: 1.2rem;
+}
+.bgh{
+    color: red;
+}
+
+
+.card{
+    width: 306px;
+}
+
+@media all and (max-width:1350px){
+    
+    .card{
+        width: 360px;
+    }
+}
+
+
+@media all and (max-width:1200px){
+    
+    .card{
+        width: 320px;
+    }
+}
+
+
+@media all and (max-width:1050px){
+    .card{
+        width: 300px;
+    }
+}
+
+@media all and (max-width:1000px){
+    .card{
+        width: 360px;
+    }
+}
+
+@media all and (max-width:800px){
+    .card{
+        width: 300px;
+    }
+}
+
+@media all and (max-width:700px){
+    .card{
+        width: 400px;
+    }  
+}
+
+
+@media all and (max-width:500px){
+    .card{
+        width: 350px;
+    }  
+}
+
+@media all and (max-width:400px){
+    .card{
+        width: 300px;
+    }  
+}
